@@ -82,7 +82,7 @@ function setup() {
 
 function draw() {
 
-  background("#87CEFA");
+  background("#ADD8E6");
   text("Pontuação: " + pontuacao, 500, 50);
 
   
