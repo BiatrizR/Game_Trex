@@ -82,7 +82,7 @@ function setup() {
 
 function draw() {
 
-  background("#00FF7F");
+  background("#ADD8E6");
   text("Pontuação: " + pontuacao, 500, 50);
 
   
@@ -162,7 +162,7 @@ function draw() {
 
 function gerarObstaculos() {
   if (frameCount % 60 === 0) {
-    var obstaculo = createSprite(400, 165, 10, 40);
+    var obstaculo = createSprite(600, 165, 10, 40);
     //aumentar velocidade do obst alterando
     obstaculo.velocityX = -(4 + pontuacao / 200);
 
