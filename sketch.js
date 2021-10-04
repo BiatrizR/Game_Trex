@@ -162,7 +162,7 @@ function draw() {
 
 function gerarObstaculos() {
   if (frameCount % 60 === 0) {
-    var obstaculo = createSprite(600, 165, 10, 40);
+    var obstaculo = createSprite(650, 165, 10, 40);
     //aumentar velocidade do obst alterando
     obstaculo.velocityX = -(4 + pontuacao / 200);
 
